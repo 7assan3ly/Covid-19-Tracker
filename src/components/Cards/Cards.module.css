@@ -1,0 +1,39 @@
+.container {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    margin: 0 2% !important;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    -webkit-box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    -moz-box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.cardHead {
+    font-size: 20px;
+    color: #535252;
+}
+.cardCount {
+    font-size: 17px;
+}
+
+
+.confirmed {
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5) !important
+}
+.recovered {
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5) !important
+}
+.deaths {
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5) !important
+}
+
+
+@media (max-width: 770px) {
+    .card {
+        margin-bottom: 15px !important;
+    }
+}
